@@ -1,0 +1,55 @@
+﻿@model PerspectumExercise.Models.Views.IndexViewModel
+
+@using (Html.BeginForm())
+{
+    <div class="form-group row">
+        <br>
+        <label class="col-lg-2 control-label" for="SelectedType"><h5><strong>Select Analysis Type:</strong></h5></label>
+        <div class="col-lg-8">
+            @Html.DropDownListFor(model => model.SelectedType, Model.AnalysisTypes, "-- Analysis Types --", new { @class = "form-control" })
+        </div>
+    </div>
+
+}
+    <ul id="tabs" class="nav nav-tabs" style="visibility:hidden">
+        <li class="active"><a data-toggle="tab" href="#RoiSummary">ROI Summary</a></li>
+        <li><a data-toggle="tab" href="#RoiSliceSummary">ROI Slice Summary</a></li>
+        <li><a data-toggle="tab" href="#LiverSegmentation">Liver Segmentation</a></li>
+        <li><a data-toggle="tab" href="#LiverSliceStatistics">Liver Slice Statistics</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="RoiSummary" class="tab-pane fade in active">
+
+        </div>
+        <div id="RoiSliceSummary" class="tab-pane fade">
+        </div>
+        <div id="LiverSegmentation" class="tab-pane fade">
+        </div>
+        <div id="LiverSliceStatistics" class="tab-pane fade">
+        </div>
+    </div>
+
+@section Scripts{
+    <script type="text/javascript">
+        $("#SelectedType").on("change", function () {
+            document.getElementById("tabs").style.visibility  = "visible";
+            var urlRoiSummary = '@Url.Action("GetRoiSummary", "Main")' + "?selectedType="  + $(this).val();
+                $("#RoiSummary").load(urlRoiSummary, function(){
+            })
+
+            var urlRoiSliceSummary = '@Url.Action("GetRoiSliceSummary", "Main")' + "?selectedType=" + $(this).val();
+                $("#RoiSliceSummary").load(urlRoiSliceSummary, function(){
+            })
+
+            var urlLiverSegmentation = '@Url.Action("GetLiverSegmentation", "Main")' + "?selectedType=" + $(this).val();
+                $("#LiverSegmentation").load(urlLiverSegmentation, function(){
+            })
+
+            var urlLiverSliceStatistics = '@Url.Action("GetLiverSliceStatistics", "Main")' + "?selectedType=" + $(this).val();
+                $("#LiverSliceStatistics").load(urlLiverSliceStatistics , function(){
+            })
+        })
+
+    </script>
+    }

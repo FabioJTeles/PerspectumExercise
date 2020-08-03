@@ -1,0 +1,40 @@
+﻿@*@model PerspectumExercise.Models.Views.IndexViewModel*@
+@model PerspectumExercise.Models.FileModel
+
+<img id="LogoPerspectum" src="@Url.Content("~/images/PerspectumLogo.png")" />
+<h3>@ViewBag.Message</h3>
+
+
+@using (Html.BeginForm("Upload",
+                        "Home",
+                        FormMethod.Post,
+                        new { enctype = "multipart/form-data" }))
+{
+    <a class="inline-buttons">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input id="inputFile" name="file" type="file" value="file" class="form-control"  accept=".json" />
+                        <h4>@ViewBag.ErrorMessage</h4>
+                    </div>
+                    <input id="uploadfile" class="btn btn-light" type="submit" value="Upload" disabled />
+                </form>
+            </div>
+        </div>
+    </a>
+
+}
+
+@section Scripts{
+    <script type="text/javascript">
+        $('input[type=file]').change(function () {
+            if ($('input[type=file]').val() == '') {
+                $('#uploadfile').attr('disabled', true)
+            }
+            else {
+                $('#uploadfile').attr('disabled', false);
+            }
+        })
+    </script>
+}

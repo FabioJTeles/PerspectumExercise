@@ -1,0 +1,85 @@
+﻿@model List<PerspectumExercise.Models.RoiSummary>
+
+<div class="border bg-white">
+    <br />
+    <div>
+        @if (Model.Any())
+        {
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>
+                        @Html.DisplayName("Type")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Number Of ROIs")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Lower Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Mean")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Median")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Upper Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Reported Lower Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Reported Median")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Reported Upper Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Reported Unit")
+                    </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => item.type)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.number_of_rois)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.lower_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.mean)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.median)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.upper_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.reported_values.lower_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.reported_values.median)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.reported_values.upper_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.reported_values.unit)
+                </td>
+            </tr>
+
+                }
+            </table>
+        }
+        else
+        {
+            <label>No Results</label>
+        }
+    </div>
+</div>
+

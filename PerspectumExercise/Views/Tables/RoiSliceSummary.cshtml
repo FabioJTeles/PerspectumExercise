@@ -1,0 +1,61 @@
+﻿@model List<PerspectumExercise.Models.RoiSliceSummary>
+
+<div class="border bg-white">
+    <br />
+    <div>
+        @if (Model.Any())
+        {
+            <table class="table table-striped border">
+                <tr class="table-secondary">
+                    <th>
+                        @Html.DisplayName("Lower Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Number of ROIs")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Mean")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Median")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Upper Quartile")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Parametric Map ID")
+                    </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => item.lower_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.number_of_rois)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.mean)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.median)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.upper_quartile)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.parametric_map_id)
+                </td>
+            </tr>
+
+                }
+            </table>
+        }
+        else
+        {
+            <label>No Results</label>
+        }
+    </div>
+</div>
+

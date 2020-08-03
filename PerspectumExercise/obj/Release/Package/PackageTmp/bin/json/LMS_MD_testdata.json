@@ -1,0 +1,6137 @@
+{
+	"analysis": {
+		"analyst": "sunilkumar",
+		"datetime": "07 Jul 2020 17:07:57 +0100",
+		"location": [
+			"0A:65:90:DD:C6:29",
+			"18:65:90:DD:C6:29",
+			"36:36:03:9B:CF:EF",
+			"6A:00:03:2C:E3:10",
+			"6A:00:03:2C:E3:11"
+		],
+		"platform": "osx version 10.14"
+	},
+	"format": "pd_analysis_result",
+	"inputs": [
+		{
+			"scan_data": {
+				"field_strength": "3",
+				"patient_date_of_birth": "19621201",
+				"patient_id": "VOL1",
+				"patient_name": "CCIR_VIDA_VOL",
+				"patient_sex": "M",
+				"referring_physician": "",
+				"scan_date": "20180515",
+				"scan_time": "145038.7",
+				"scanner_id": "",
+				"scanner_manufacturer": "Siemens HealthCare GmbH",
+				"scanner_model": "MAGNETOM Vida",
+				"scanner_software_version": "syngo MR XA10",
+				"scanning_center_address": "BARNES JEWISH HOSPITAL PLAZA 1,SAINT LOUIS,MISSOURI,US,63110",
+				"scanning_center_name": "CENTER FOR CLINICAL IMAGING RESEARCH",
+				"study_instance_uid": "1.3.12.2.1107.5.2.50.175614.30000018051507570032600000496"
+			}
+		},
+		{
+			"input_series": [
+				"10001",
+				"12001",
+				"14001",
+				"16001",
+				"18001",
+				"20001",
+				"2001",
+				"22001",
+				"24001",
+				"4001",
+				"6001",
+				"8001"
+			]
+		},
+		{
+			"series_information": [
+				{
+					"echo_times": [
+						0.0011,
+						0.0022,
+						0.0033,
+						0.0044,
+						0.0055,
+						0.0066,
+						0.0077,
+						0.0088,
+						0.0099,
+						0.011,
+						0.0121,
+						0.0132
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-221.929,
+						-8.52029
+					],
+					"parametric_map_ids": [
+						"657077",
+						"090d01",
+						"ad53d9",
+						"936daa"
+					],
+					"series_description": "LMS IDEAL_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.2018051515072190781636122.0.0.0.PD.MS.0"
+					],
+					"series_numbers": [
+						"22001"
+					],
+					"slice_location": "-8.520290"
+				},
+				{
+					"echo_times": [
+						0.0011,
+						0.0022,
+						0.0033,
+						0.0044,
+						0.0055,
+						0.0066,
+						0.0077,
+						0.0088,
+						0.0099,
+						0.011,
+						0.0121,
+						0.0132
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-221.929,
+						21.4797
+					],
+					"parametric_map_ids": [
+						"540078",
+						"7f11dc",
+						"e43b88",
+						"ab2a9f"
+					],
+					"series_description": "LMS IDEAL_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.2018051515072190781636122.0.0.0.PD.MS.1"
+					],
+					"series_numbers": [
+						"22001"
+					],
+					"slice_location": "21.479700"
+				},
+				{
+					"echo_times": [
+						0.0011,
+						0.0022,
+						0.0033,
+						0.0044,
+						0.0055,
+						0.0066,
+						0.0077,
+						0.0088,
+						0.0099,
+						0.011,
+						0.0121,
+						0.0132
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-221.929,
+						36.4797
+					],
+					"parametric_map_ids": [
+						"b42a13",
+						"07527a",
+						"0de8ac",
+						"0ce750"
+					],
+					"series_description": "LMS IDEAL_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.2018051515072190781636122.0.0.0.PD.MS.2"
+					],
+					"series_numbers": [
+						"22001"
+					],
+					"slice_location": "36.479700"
+				},
+				{
+					"echo_times": [
+						0.0011,
+						0.0022,
+						0.0033,
+						0.0044,
+						0.0055,
+						0.0066,
+						0.0077,
+						0.0088,
+						0.0099,
+						0.011,
+						0.0121,
+						0.0132
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-221.929,
+						51.4797
+					],
+					"parametric_map_ids": [
+						"865f7c",
+						"5a8af7",
+						"d0b229",
+						"6bca64"
+					],
+					"series_description": "LMS IDEAL_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.2018051515072190781636122.0.0.0.PD.MS.3"
+					],
+					"series_numbers": [
+						"22001"
+					],
+					"slice_location": "51.479700"
+				},
+				{
+					"echo_times": [
+						0.0011,
+						0.0022,
+						0.0033,
+						0.0044,
+						0.0055,
+						0.0066,
+						0.0077,
+						0.0088,
+						0.0099,
+						0.011,
+						0.0121,
+						0.0132
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-221.929,
+						6.47971
+					],
+					"parametric_map_ids": [
+						"19a5f4",
+						"abe788",
+						"cad50d",
+						"f361ce"
+					],
+					"series_description": "LMS IDEAL_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.2018051515072190781636122.0.0.0.PD.MS.4"
+					],
+					"series_numbers": [
+						"22001"
+					],
+					"slice_location": "6.479710"
+				},
+				{
+					"echo_times": [
+						0.00123,
+						0.00246,
+						0.00369,
+						0.00492,
+						0.00615,
+						0.00738,
+						0.00861,
+						0.00984
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-211.814,
+						-185.054,
+						21.4797
+					],
+					"parametric_map_ids": [
+						"3db14d",
+						"cdde30"
+					],
+					"series_description": "LMS T2STAR DIXON_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000043"
+					],
+					"series_numbers": [
+						"2001"
+					],
+					"slice_location": "21.479700"
+				},
+				{
+					"echo_times": [
+						0.00123,
+						0.00246,
+						0.00369,
+						0.00492,
+						0.00615,
+						0.00738,
+						0.00861,
+						0.00984
+					],
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-211.814,
+						-185.054,
+						21.4797
+					],
+					"parametric_map_ids": [
+						"8ccf75",
+						"4f697e",
+						"5f53f6",
+						"2adfd7",
+						"107165"
+					],
+					"series_description": "LMS T2STAR DIXON_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000043",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000095"
+					],
+					"series_numbers": [
+						"2001",
+						"4001"
+					],
+					"slice_location": "21.479700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						31.0797
+					],
+					"inversion_times": [
+						0.1,
+						1.075,
+						2.06,
+						3.06,
+						4.065,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"ce446c",
+						"459120",
+						"3da200"
+					],
+					"rr_intervals": [
+						0.975,
+						0.985,
+						1.0,
+						1.0050000000000002
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000147",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000193"
+					],
+					"series_numbers": [
+						"6001",
+						"8001"
+					],
+					"slice_location": "31.079700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						31.0797
+					],
+					"inversion_times": [
+						0.1,
+						1.075,
+						2.06,
+						3.06,
+						4.065,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"2688db"
+					],
+					"rr_intervals": [
+						0.975,
+						0.985,
+						1.0,
+						1.0050000000000002
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000147",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000193"
+					],
+					"series_numbers": [
+						"6001",
+						"8001"
+					],
+					"slice_location": "31.079700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						21.4797
+					],
+					"inversion_times": [
+						0.1,
+						0.91,
+						1.87,
+						2.745,
+						3.705,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"bb76e0",
+						"bcf12d",
+						"d5cb25"
+					],
+					"rr_intervals": [
+						0.81,
+						0.96,
+						0.875,
+						0.96
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000239",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000285"
+					],
+					"series_numbers": [
+						"10001",
+						"12001"
+					],
+					"slice_location": "21.479700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						21.4797
+					],
+					"inversion_times": [
+						0.1,
+						0.91,
+						1.87,
+						2.745,
+						3.705,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"b37458"
+					],
+					"rr_intervals": [
+						0.81,
+						0.96,
+						0.875,
+						0.96
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000239",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000285"
+					],
+					"series_numbers": [
+						"10001",
+						"12001"
+					],
+					"slice_location": "21.479700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						11.8797
+					],
+					"inversion_times": [
+						0.1,
+						1.065,
+						2.05,
+						2.965,
+						3.87,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"f4a044",
+						"eab664",
+						"6af7bc"
+					],
+					"rr_intervals": [
+						0.965,
+						0.985,
+						0.915,
+						0.905
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000331",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000377"
+					],
+					"series_numbers": [
+						"14001",
+						"16001"
+					],
+					"slice_location": "11.879700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						11.8797
+					],
+					"inversion_times": [
+						0.1,
+						1.065,
+						2.05,
+						2.965,
+						3.87,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"37a80c"
+					],
+					"rr_intervals": [
+						0.965,
+						0.985,
+						0.915,
+						0.905
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000331",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000377"
+					],
+					"series_numbers": [
+						"14001",
+						"16001"
+					],
+					"slice_location": "11.879700"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						2.27971
+					],
+					"inversion_times": [
+						0.1,
+						1.065,
+						1.99,
+						2.91,
+						3.805,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"84d2b1",
+						"a1a6de",
+						"907115"
+					],
+					"rr_intervals": [
+						0.965,
+						0.925,
+						0.92,
+						0.895
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000423",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000469"
+					],
+					"series_numbers": [
+						"18001",
+						"20001"
+					],
+					"slice_location": "2.279710"
+				},
+				{
+					"image_orientation_patient": [
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					],
+					"image_position_patient": [
+						-231.814,
+						-187.554,
+						2.27971
+					],
+					"inversion_times": [
+						0.1,
+						1.065,
+						1.99,
+						2.91,
+						3.805,
+						0.18,
+						0.26
+					],
+					"parametric_map_ids": [
+						"4c7101"
+					],
+					"rr_intervals": [
+						0.965,
+						0.925,
+						0.92,
+						0.895
+					],
+					"series_description": "LMS MOLLI_ND",
+					"series_instance_uids": [
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000423",
+						"1.3.12.2.1107.5.2.50.175614.30000018051515161612400000469"
+					],
+					"series_numbers": [
+						"18001",
+						"20001"
+					],
+					"slice_location": "2.279710"
+				}
+			]
+		},
+		{
+			"input_mapping": [
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "bb76e0",
+							"t1_method": "normalised MOLLI T1",
+							"type": "t1"
+						},
+						{
+							"parametric_map_id": "bcf12d",
+							"type": "liver_segmentation"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "b37458",
+							"type": "cT1"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "d5cb25",
+							"type": "ct1_r2"
+						}
+					],
+					"series_numbers": [
+						"10001",
+						"12001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "f4a044",
+							"type": "liver_segmentation"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "37a80c",
+							"type": "cT1"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "eab664",
+							"type": "ct1_r2"
+						},
+						{
+							"parametric_map_id": "6af7bc",
+							"t1_method": "normalised MOLLI T1",
+							"type": "t1"
+						}
+					],
+					"series_numbers": [
+						"14001",
+						"16001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "84d2b1",
+							"type": "liver_segmentation"
+						},
+						{
+							"parametric_map_id": "a1a6de",
+							"t1_method": "normalised MOLLI T1",
+							"type": "t1"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "4c7101",
+							"type": "cT1"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "907115",
+							"type": "ct1_r2"
+						}
+					],
+					"series_numbers": [
+						"18001",
+						"20001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "3db14d",
+							"type": "t2Star_dixon"
+						},
+						{
+							"parametric_map_id": "cdde30",
+							"type": "t2Star_dixon_r2"
+						}
+					],
+					"series_numbers": [
+						"2001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "8ccf75",
+							"type": "liver_segmentation_dixon"
+						},
+						{
+							"parametric_map_id": "4f697e",
+							"type": "pdff_dixon_field_map"
+						},
+						{
+							"parametric_map_id": "5f53f6",
+							"type": "pdff_dixon_mask"
+						},
+						{
+							"parametric_map_id": "2adfd7",
+							"type": "pdff_dixon"
+						},
+						{
+							"parametric_map_id": "107165",
+							"type": "t2Star_dixon_field_map"
+						}
+					],
+					"series_numbers": [
+						"2001",
+						"4001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "865f7c",
+							"type": "liver_segmentation_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "b42a13",
+							"type": "liver_segmentation_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "540078",
+							"type": "liver_segmentation_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "19a5f4",
+							"type": "liver_segmentation_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "07527a",
+							"type": "pdff_ideal_mask"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "7f11dc",
+							"type": "pdff_ideal_mask"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "657077",
+							"type": "pdff_ideal_mask"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "5a8af7",
+							"type": "pdff_ideal_r2"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "0de8ac",
+							"type": "pdff_ideal_r2"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "090d01",
+							"type": "pdff_ideal_r2"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "0ce750",
+							"type": "pdff_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "e43b88",
+							"type": "pdff_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "abe788",
+							"type": "pdff_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "d0b229",
+							"type": "pdff_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "ad53d9",
+							"type": "pdff_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "cad50d",
+							"type": "pdff_ideal_r2"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "936daa",
+							"type": "liver_segmentation_ideal"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "f361ce",
+							"type": "pdff_ideal_mask"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "6bca64",
+							"type": "pdff_ideal_mask"
+						},
+						{
+							"ideal_method": "mago",
+							"parametric_map_id": "ab2a9f",
+							"type": "pdff_ideal_r2"
+						}
+					],
+					"series_numbers": [
+						"22001"
+					]
+				},
+				{
+					"parametric_maps": [
+						{
+							"parametric_map_id": "ce446c",
+							"type": "liver_segmentation"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "2688db",
+							"type": "cT1"
+						},
+						{
+							"ct1_method": "super-standardised",
+							"parametric_map_id": "459120",
+							"type": "ct1_r2"
+						},
+						{
+							"parametric_map_id": "3da200",
+							"t1_method": "normalised MOLLI T1",
+							"type": "t1"
+						}
+					],
+					"series_numbers": [
+						"6001",
+						"8001"
+					]
+				}
+			]
+		},
+		{
+			"roi_placement": [
+				{
+					"number": 1,
+					"parametric_map_id": "a1a6de",
+					"radius": 7.5,
+					"x": 126.75381165919285,
+					"y": 148.6659192825112
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "907115",
+					"radius": 7.5,
+					"x": 126.75381165919285,
+					"y": 148.6659192825112
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "4c7101",
+					"radius": 7.5,
+					"x": 126.75381165919285,
+					"y": 148.6659192825112
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "3db14d",
+					"radius": 7.5,
+					"x": 110.04545454545453,
+					"y": 86.9641148325359
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "cdde30",
+					"radius": 7.5,
+					"x": 110.04545454545453,
+					"y": 86.9641148325359
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "ad53d9",
+					"radius": 7.5,
+					"x": 62.952679589509717,
+					"y": 119.20353477765107
+				},
+				{
+					"number": 2,
+					"parametric_map_id": "ad53d9",
+					"radius": 7.5,
+					"x": 80.67673888255418,
+					"y": 140.89566704675029
+				},
+				{
+					"number": 1,
+					"parametric_map_id": "090d01",
+					"radius": 7.5,
+					"x": 62.952679589509717,
+					"y": 119.20353477765107
+				},
+				{
+					"number": 2,
+					"parametric_map_id": "090d01",
+					"radius": 7.5,
+					"x": 80.67673888255418,
+					"y": 140.89566704675029
+				}
+			]
+		}
+	],
+	"outputs": [
+		{
+			"roi_summary": [
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number_of_rois": 1,
+					"type": "t1",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number_of_rois": 1,
+					"type": "t1",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.9951359656766107,
+					"mean": 0.9961664901198366,
+					"median": 0.9963049380244146,
+					"number_of_rois": 1,
+					"type": "ct1_r2",
+					"upper_quartile": 0.9975118321923723
+				},
+				{
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7389143607837899,
+					"median": 0.7366246543008824,
+					"number_of_rois": 1,
+					"reported_values": {
+						"lower_quartile": "722",
+						"median": "737",
+						"unit": "ms",
+						"upper_quartile": "759"
+					},
+					"type": "cT1",
+					"upper_quartile": 0.758776465895909
+				},
+				{
+					"lower_quartile": 0.013492644771457827,
+					"mean": 0.016691951128973899,
+					"median": 0.015118811714955719,
+					"number_of_rois": 1,
+					"reported_values": {
+						"lower_quartile": "13",
+						"median": "15",
+						"unit": "ms",
+						"upper_quartile": "21"
+					},
+					"type": "t2Star_dixon",
+					"upper_quartile": 0.02088225088297177
+				},
+				{
+					"lower_quartile": 0.9503566497695595,
+					"mean": 0.9719366521320068,
+					"median": 0.9838655925233741,
+					"number_of_rois": 1,
+					"type": "t2Star_dixon_r2",
+					"upper_quartile": 0.9997879182183427
+				},
+				{
+					"lower_quartile": 6.0285808970805558,
+					"mean": 8.059167270030717,
+					"median": 8.20325867581588,
+					"number_of_rois": 2,
+					"reported_values": {
+						"lower_quartile": "6",
+						"median": "8",
+						"unit": "%",
+						"upper_quartile": "10"
+					},
+					"type": "pdff_ideal",
+					"upper_quartile": 10.480677047697466
+				},
+				{
+					"lower_quartile": 0.8828065810656613,
+					"mean": 0.911009161483012,
+					"median": 0.9309212689120956,
+					"number_of_rois": 2,
+					"type": "pdff_ideal_r2",
+					"upper_quartile": 0.9616684907317444
+				}
+			]
+		},
+		{
+			"roi_statistics": [
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number": 1,
+					"parametric_map_id": "a1a6de",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.9951359656766107,
+					"mean": 0.9961664901198366,
+					"median": 0.9963049380244146,
+					"number": 1,
+					"parametric_map_id": "907115",
+					"upper_quartile": 0.9975118321923723
+				},
+				{
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7389143607837899,
+					"median": 0.7366246543008824,
+					"number": 1,
+					"parametric_map_id": "4c7101",
+					"upper_quartile": 0.758776465895909
+				},
+				{
+					"lower_quartile": 0.013492644771457827,
+					"mean": 0.016691951128973899,
+					"median": 0.015118811714955719,
+					"number": 1,
+					"parametric_map_id": "3db14d",
+					"upper_quartile": 0.02088225088297177
+				},
+				{
+					"lower_quartile": 0.9503566497695595,
+					"mean": 0.9719366521320068,
+					"median": 0.9838655925233741,
+					"number": 1,
+					"parametric_map_id": "cdde30",
+					"upper_quartile": 0.9997879182183427
+				},
+				{
+					"lower_quartile": 4.227250931182261,
+					"mean": 6.547023104714123,
+					"median": 6.364303133659796,
+					"number": 1,
+					"parametric_map_id": "ad53d9",
+					"upper_quartile": 8.686494096469332
+				},
+				{
+					"lower_quartile": 8.171554602570359,
+					"mean": 9.646918643613141,
+					"median": 9.914216075616885,
+					"number": 2,
+					"parametric_map_id": "ad53d9",
+					"upper_quartile": 11.253323907056082
+				},
+				{
+					"lower_quartile": 0.8376463303992392,
+					"mean": 0.8690048803264012,
+					"median": 0.884820663390717,
+					"number": 1,
+					"parametric_map_id": "090d01",
+					"upper_quartile": 0.914358139179828
+				},
+				{
+					"lower_quartile": 0.9416498802239367,
+					"mean": 0.9551136566974544,
+					"median": 0.9611906228961344,
+					"number": 2,
+					"parametric_map_id": "090d01",
+					"upper_quartile": 0.9730569682126893
+				},
+				{
+					"lower_quartile": 1.6871506605691107,
+					"mean": 5.686542042076204,
+					"median": 5.259940294715426,
+					"number": 1,
+					"parametric_map_id": "107165",
+					"upper_quartile": 8.435753302845554
+				}
+			]
+		},
+		{
+			"roi_slice_summary": [
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number_of_rois": 1,
+					"parametric_map_id": "a1a6de",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number_of_rois": 3,
+					"parametric_map_id": "3da200",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.7491063549757324,
+					"mean": 0.7699122665799151,
+					"median": 0.7719144822782301,
+					"number_of_rois": 3,
+					"parametric_map_id": "3da202",
+					"upper_quartile": 0.7934708281802952
+				},
+				{
+					"lower_quartile": 0.9951359656766107,
+					"mean": 0.9961664901198366,
+					"median": 0.9963049380244146,
+					"number_of_rois": 1,
+					"parametric_map_id": "907115",
+					"upper_quartile": 0.9975118321923723
+				},
+				{
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7389143607837899,
+					"median": 0.7366246543008824,
+					"number_of_rois": 1,
+					"parametric_map_id": "4c7101",
+					"upper_quartile": 0.758776465895909
+				},
+				{
+					"lower_quartile": 0.013492644771457827,
+					"mean": 0.016691951128973899,
+					"median": 0.015118811714955719,
+					"number_of_rois": 1,
+					"parametric_map_id": "3db14d",
+					"upper_quartile": 0.02088225088297177
+				},
+				{
+					"lower_quartile": 0.9503566497695595,
+					"mean": 0.9719366521320068,
+					"median": 0.9838655925233741,
+					"number_of_rois": 1,
+					"parametric_map_id": "cdde30",
+					"upper_quartile": 0.9997879182183427
+				},
+				{
+					"lower_quartile": 6.0285808970805558,
+					"mean": 8.059167270030717,
+					"median": 8.20325867581588,
+					"number_of_rois": 2,
+					"parametric_map_id": "ad53d9",
+					"upper_quartile": 10.480677047697466
+				},
+				{
+					"lower_quartile": 0.8828065810656613,
+					"mean": 0.911009161483012,
+					"median": 0.9309212689120956,
+					"number_of_rois": 2,
+					"parametric_map_id": "090d01",
+					"upper_quartile": 0.9616684907317444
+				}
+			]
+		},
+		{
+			"liver_segmentation": [
+				{
+					"area": 642.0472626998778,
+					"lower_quartile": 0.7523703312280899,
+					"mean": 0.8018245909966743,
+					"median": 0.7919936939048472,
+					"type": "t1",
+					"upper_quartile": 0.8444000474794381
+				},
+				{
+					"area": 642.0472626998778,
+					"lower_quartile": 0.9888565455549646,
+					"mean": 0.9806411493167195,
+					"median": 0.9937422959907074,
+					"type": "ct1_r2",
+					"upper_quartile": 0.9962215897795472
+				},
+				{
+					"area": 642.0472626998778,
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7681261196999174,
+					"median": 0.758776465895909,
+					"reported_values": {
+						"lower_quartile": "722",
+						"median": "759",
+						"unit": "ms",
+						"upper_quartile": "803"
+					},
+					"type": "cT1",
+					"upper_quartile": 0.8029993598006004
+				}
+			]
+		},
+		{
+			"liver_slice_statistics": [
+				{
+					"area": 162.18579682081697,
+					"lower_quartile": 0.7509161169879182,
+					"mean": 0.791666546691749,
+					"median": 0.7812674082606512,
+					"parametric_map_id": "a1a6de",
+					"upper_quartile": 0.82237855428939
+				},
+				{
+					"area": 169.30185784865498,
+					"lower_quartile": 0.752266729289357,
+					"mean": 0.8032199580384871,
+					"median": 0.7926962673284692,
+					"parametric_map_id": "6af7bc",
+					"upper_quartile": 0.8478385420974808
+				},
+				{
+					"area": 176.35227255704798,
+					"lower_quartile": 0.7645836028667225,
+					"mean": 0.813394157556681,
+					"median": 0.8066665646299781,
+					"parametric_map_id": "bb76e0",
+					"upper_quartile": 0.8578427289295899
+				},
+				{
+					"area": 134.20733547335798,
+					"lower_quartile": 0.7411009429294178,
+					"mean": 0.7971275935734884,
+					"median": 0.7863023057703702,
+					"parametric_map_id": "3da200",
+					"upper_quartile": 0.8462174172692306
+				},
+				{
+					"area": 162.18579682081697,
+					"lower_quartile": 0.9928990340764816,
+					"mean": 0.9884397073148169,
+					"median": 0.9954513440823597,
+					"parametric_map_id": "907115",
+					"upper_quartile": 0.9969737018952223
+				},
+				{
+					"area": 169.30185784865498,
+					"lower_quartile": 0.9904338888264133,
+					"mean": 0.9780515998005293,
+					"median": 0.9939855997625999,
+					"parametric_map_id": "eab664",
+					"upper_quartile": 0.9961244721218909
+				},
+				{
+					"area": 176.35227255704798,
+					"lower_quartile": 0.9860870468680449,
+					"mean": 0.9761176177587725,
+					"median": 0.9930168729563095,
+					"parametric_map_id": "d5cb25",
+					"upper_quartile": 0.9962521137865228
+				},
+				{
+					"area": 134.20733547335798,
+					"lower_quartile": 0.9841206633034717,
+					"mean": 0.980427563907473,
+					"median": 0.9909499312864978,
+					"parametric_map_id": "459120",
+					"upper_quartile": 0.9944433740937564
+				},
+				{
+					"area": 162.18579682081697,
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7598269054015739,
+					"median": 0.7514362486967773,
+					"parametric_map_id": "4c7101",
+					"upper_quartile": 0.788225704539892
+				},
+				{
+					"area": 169.30185784865498,
+					"lower_quartile": 0.721866780298023,
+					"mean": 0.7757731653766679,
+					"median": 0.758776465895909,
+					"parametric_map_id": "37a80c",
+					"upper_quartile": 0.8103473729109203
+				},
+				{
+					"area": 176.35227255704798,
+					"lower_quartile": 0.7292385433386073,
+					"mean": 0.77602626100957,
+					"median": 0.7661445095355973,
+					"parametric_map_id": "b37458",
+					"upper_quartile": 0.8177018192727287
+				},
+				{
+					"area": 134.20733547335798,
+					"lower_quartile": 0.7070643589326325,
+					"mean": 0.7581292635319697,
+					"median": 0.7440051917558911,
+					"parametric_map_id": "2688db",
+					"upper_quartile": 0.795683263202496
+				}
+			]
+		},
+		{
+			"quality_checks": {
+				"image_quality_comments": [],
+				"quality_control": [
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253221,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"657077",
+							"090d01",
+							"ad53d9",
+							"936daa"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"22001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "-8.520290",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"-8.52029"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"232\"",
+								"read_data": [
+									"232"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS IDEAL\"",
+								"read_data": [
+									"LMS IDEAL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.71875\\\\1.71875\"",
+								"read_data": [
+									"1.71875\\1.71875"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"10\"",
+								"read_data": [
+									"10"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"116\"",
+								"read_data": [
+									"116"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"90.625\"",
+								"read_data": [
+									"90.625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution",
+								"expected_values": "[\n\t\"232*256 I\",\n\t\"116*128\"\n]",
+								"read_data": [
+									"232*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Gap is not correct",
+								"expected_values": "\"15\"",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PER\",\n\t\"CG\\\\RG\\\\PER\"\n]",
+								"read_data": [
+									"PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.5e+03,\n\t\t1.6e+03\n\t]\n]",
+								"read_data": [
+									"1563"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "[\n\t[\n\t\t14.5,\n\t\t15.5\n\t]\n]",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"3\"",
+								"read_data": [
+									"3"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo Train Length incorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]\n",
+								"expected_values": "ncorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]",
+								"read_data": [
+									"12"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected",
+								"expected_values": "[\n\t\"*fl2d12\",\n\t\"fl2d12\"\n]",
+								"read_data": [
+									"*fl2d12"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253221,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"540078",
+							"7f11dc",
+							"e43b88",
+							"ab2a9f"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"22001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "21.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"21.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"232\"",
+								"read_data": [
+									"232"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS IDEAL\"",
+								"read_data": [
+									"LMS IDEAL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.71875\\\\1.71875\"",
+								"read_data": [
+									"1.71875\\1.71875"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"10\"",
+								"read_data": [
+									"10"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"116\"",
+								"read_data": [
+									"116"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"90.625\"",
+								"read_data": [
+									"90.625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution",
+								"expected_values": "[\n\t\"232*256 I\",\n\t\"116*128\"\n]",
+								"read_data": [
+									"232*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Gap is not correct",
+								"expected_values": "\"15\"",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PER\",\n\t\"CG\\\\RG\\\\PER\"\n]",
+								"read_data": [
+									"PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.5e+03,\n\t\t1.6e+03\n\t]\n]",
+								"read_data": [
+									"1563"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "[\n\t[\n\t\t14.5,\n\t\t15.5\n\t]\n]",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"3\"",
+								"read_data": [
+									"3"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo Train Length incorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]\n",
+								"expected_values": "ncorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]",
+								"read_data": [
+									"12"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected",
+								"expected_values": "[\n\t\"*fl2d12\",\n\t\"fl2d12\"\n]",
+								"read_data": [
+									"*fl2d12"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253221,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"b42a13",
+							"07527a",
+							"0de8ac",
+							"0ce750"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"22001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "36.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"36.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"232\"",
+								"read_data": [
+									"232"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS IDEAL\"",
+								"read_data": [
+									"LMS IDEAL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.71875\\\\1.71875\"",
+								"read_data": [
+									"1.71875\\1.71875"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"10\"",
+								"read_data": [
+									"10"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"116\"",
+								"read_data": [
+									"116"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"90.625\"",
+								"read_data": [
+									"90.625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution",
+								"expected_values": "[\n\t\"232*256 I\",\n\t\"116*128\"\n]",
+								"read_data": [
+									"232*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Gap is not correct",
+								"expected_values": "\"15\"",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PER\",\n\t\"CG\\\\RG\\\\PER\"\n]",
+								"read_data": [
+									"PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.5e+03,\n\t\t1.6e+03\n\t]\n]",
+								"read_data": [
+									"1563"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "[\n\t[\n\t\t14.5,\n\t\t15.5\n\t]\n]",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"3\"",
+								"read_data": [
+									"3"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo Train Length incorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]\n",
+								"expected_values": "ncorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]",
+								"read_data": [
+									"12"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected",
+								"expected_values": "[\n\t\"*fl2d12\",\n\t\"fl2d12\"\n]",
+								"read_data": [
+									"*fl2d12"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253221,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"865f7c",
+							"5a8af7",
+							"d0b229",
+							"6bca64"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"22001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "51.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"51.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"232\"",
+								"read_data": [
+									"232"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS IDEAL\"",
+								"read_data": [
+									"LMS IDEAL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.71875\\\\1.71875\"",
+								"read_data": [
+									"1.71875\\1.71875"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"10\"",
+								"read_data": [
+									"10"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"116\"",
+								"read_data": [
+									"116"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"90.625\"",
+								"read_data": [
+									"90.625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution",
+								"expected_values": "[\n\t\"232*256 I\",\n\t\"116*128\"\n]",
+								"read_data": [
+									"232*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Gap is not correct",
+								"expected_values": "\"15\"",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PER\",\n\t\"CG\\\\RG\\\\PER\"\n]",
+								"read_data": [
+									"PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.5e+03,\n\t\t1.6e+03\n\t]\n]",
+								"read_data": [
+									"1563"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "[\n\t[\n\t\t14.5,\n\t\t15.5\n\t]\n]",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"3\"",
+								"read_data": [
+									"3"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo Train Length incorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]\n",
+								"expected_values": "ncorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]",
+								"read_data": [
+									"12"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected",
+								"expected_values": "[\n\t\"*fl2d12\",\n\t\"fl2d12\"\n]",
+								"read_data": [
+									"*fl2d12"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253221,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"19a5f4",
+							"abe788",
+							"cad50d",
+							"f361ce"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"22001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "6.479710",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"6.47971"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"232\"",
+								"read_data": [
+									"232"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS IDEAL\"",
+								"read_data": [
+									"LMS IDEAL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.71875\\\\1.71875\"",
+								"read_data": [
+									"1.71875\\1.71875"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"10\"",
+								"read_data": [
+									"10"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"116\"",
+								"read_data": [
+									"116"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"90.625\"",
+								"read_data": [
+									"90.625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution",
+								"expected_values": "[\n\t\"232*256 I\",\n\t\"116*128\"\n]",
+								"read_data": [
+									"232*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Gap is not correct",
+								"expected_values": "\"15\"",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PER\",\n\t\"CG\\\\RG\\\\PER\"\n]",
+								"read_data": [
+									"PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.5e+03,\n\t\t1.6e+03\n\t]\n]",
+								"read_data": [
+									"1563"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "[\n\t[\n\t\t14.5,\n\t\t15.5\n\t]\n]",
+								"read_data": [
+									"15"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"3\"",
+								"read_data": [
+									"3"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo Train Length incorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]\n",
+								"expected_values": "ncorrect\nExpected value(s):\n[\n\t\"1\",\n\t\"12\"\n]",
+								"read_data": [
+									"12"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected",
+								"expected_values": "[\n\t\"*fl2d12\",\n\t\"fl2d12\"\n]",
+								"read_data": [
+									"*fl2d12"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253224,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"3db14d",
+							"cdde30"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"2001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "21.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"21.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"208\"",
+								"read_data": [
+									"208"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"fl2d8_9\",\n\t\"*fl2d8_9\"\n]",
+								"read_data": [
+									"*fl2d8_9"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS T2STAR DIXON\"",
+								"read_data": [
+									"LMS T2STAR DIXON"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.5625\\\\1.5625\"",
+								"read_data": [
+									"1.5625\\1.5625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"6\"",
+								"read_data": [
+									"6"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"20\"",
+								"read_data": [
+									"20"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"CG\\\\PPG\\\\PER\",\n\t\"CG\\\\ECG\\\\PER\",\n\t\"CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"104\"",
+								"read_data": [
+									"104"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"81.25\"",
+								"read_data": [
+									"81.25"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"128\\\\0\\\\0\\\\104\"",
+								"read_data": [
+									"128\\0\\0\\104"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "[\n\t\"208*256 I\",\n\t\"104*128\"\n]",
+								"read_data": [
+									"208*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"35\"",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.25e+03,\n\t\t1.26e+03\n\t],\n\t[\n\t\t1.08e+03,\n\t\t1.1e+03\n\t]\n]",
+								"read_data": [
+									"1260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Actual",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.11,\n\t\t1.35\n\t],\n\t[\n\t\t2.34,\n\t\t2.59\n\t],\n\t[\n\t\t3.57,\n\t\t3.82\n\t],\n\t[\n\t\t4.8,\n\t\t5.05\n\t],\n\t[\n\t\t6.03,\n\t\t6.28\n\t],\n\t[\n\t\t7.26,\n\t\t7.51\n\t],\n\t[\n\t\t8.5,\n\t\t8.74\n\t],\n\t[\n\t\t9.73,\n\t\t9.97\n\t]\n]",
+								"read_data": [
+									"1.23",
+									"2.46",
+									"3.69",
+									"4.92",
+									"6.15",
+									"7.38",
+									"8.61",
+									"9.84"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "\"500\"",
+								"read_data": [
+									"500"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253224,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"8ccf75",
+							"4f697e",
+							"5f53f6",
+							"2adfd7",
+							"107165"
+						],
+						"rr_interval_status": "NOT_APPLICABLE",
+						"series_numbers": [
+							"2001",
+							"4001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "21.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"21.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\gre"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"208\"",
+								"read_data": [
+									"208"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"256\"",
+								"read_data": [
+									"256"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"fl2d8_9\",\n\t\"*fl2d8_9\"\n]",
+								"read_data": [
+									"*fl2d8_9"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS T2STAR DIXON\"",
+								"read_data": [
+									"LMS T2STAR DIXON"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "\"1.5625\\\\1.5625\"",
+								"read_data": [
+									"1.5625\\1.5625"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"6\"",
+								"read_data": [
+									"6"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Incorrect",
+								"expected_values": "\"20\"",
+								"read_data": [
+									"20"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"CG\\\\PPG\\\\PER\",\n\t\"CG\\\\ECG\\\\PER\",\n\t\"CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"104\"",
+								"read_data": [
+									"104"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"81.25\"",
+								"read_data": [
+									"81.25"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"128\\\\0\\\\0\\\\104\"",
+								"read_data": [
+									"128\\0\\0\\104"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "[\n\t\"208*256 I\",\n\t\"104*128\"\n]",
+								"read_data": [
+									"208*256 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"35\"",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t1.25e+03,\n\t\t1.26e+03\n\t],\n\t[\n\t\t1.08e+03,\n\t\t1.1e+03\n\t]\n]",
+								"read_data": [
+									"1260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Actual",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.11,\n\t\t1.35\n\t],\n\t[\n\t\t2.34,\n\t\t2.59\n\t],\n\t[\n\t\t3.57,\n\t\t3.82\n\t],\n\t[\n\t\t4.8,\n\t\t5.05\n\t],\n\t[\n\t\t6.03,\n\t\t6.28\n\t],\n\t[\n\t\t7.26,\n\t\t7.51\n\t],\n\t[\n\t\t8.5,\n\t\t8.74\n\t],\n\t[\n\t\t9.73,\n\t\t9.97\n\t]\n]",
+								"read_data": [
+									"1.23",
+									"2.46",
+									"3.69",
+									"4.92",
+									"6.15",
+									"7.38",
+									"8.61",
+									"9.84"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Repetition Time (TR) has changed",
+								"expected_values": "\"500\"",
+								"read_data": [
+									"500"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.25322799999999,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"ce446c",
+							"459120",
+							"3da200"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"6001",
+							"8001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "31.079700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"31.0797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.29901123"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1075",
+									"2060",
+									"3060",
+									"4065",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.25322799999999,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"2688db"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"6001",
+							"8001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "31.079700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"31.0797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.29901123"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1075",
+									"2060",
+									"3060",
+									"4065",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253224,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"bb76e0",
+							"bcf12d",
+							"d5cb25"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"10001",
+							"12001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "21.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"21.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"910",
+									"1870",
+									"2745",
+									"3705",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253224,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"b37458"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"10001",
+							"12001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "21.479700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"21.4797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"910",
+									"1870",
+									"2745",
+									"3705",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253226,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"f4a044",
+							"eab664",
+							"6af7bc"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"14001",
+							"16001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "11.879700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"11.8797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1065",
+									"2050",
+									"2965",
+									"3870",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253226,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"37a80c"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"14001",
+							"16001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "11.879700",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"11.8797"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1065",
+									"2050",
+									"2965",
+									"3870",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253248,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"84d2b1",
+							"a1a6de",
+							"907115"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"18001",
+							"20001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "2.279710",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"2.27971"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1065",
+									"1990",
+									"2910",
+									"3805",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					},
+					{
+						"centre_frequency_results": {
+							"centre_frequency": 123.253248,
+							"status": "ACCEPTABLE",
+							"study_maximum": 123.253248
+						},
+						"distortion_correction_status": "ACCEPTABLE",
+						"dynamic_range_status": "ACCEPTABLE",
+						"parametric_map_ids": [
+							"4c7101"
+						],
+						"rr_interval_status": "ACCEPTABLE",
+						"series_numbers": [
+							"18001",
+							"20001"
+						],
+						"shim_status": "Z_AXIS_ACCEPTABLE",
+						"slice_location": "2.279710",
+						"tag_value_results": [
+							{
+								"error_message": "Phoenix header doesn't exist.  Private Tags have been removed by a DICOM anonymization process",
+								"expected_values": null,
+								"read_data": [
+									""
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Location is missing, but is required by DICOM spec.",
+								"expected_values": null,
+								"read_data": [
+									"2.27971"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple Averages Used",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Shim mode was not set to STANDARD shimming",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence name was not found in CSA Header",
+								"expected_values": null,
+								"read_data": [
+									"%SiemensSeq%\\BEAT_map"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "The transmitter voltage is very low here.  This is OK for phantoms, but unlikely OK  for people scans, unless small kids.",
+								"expected_values": "[\n\t[\n\t\t350.0,\n\t\t850.0\n\t]\n]",
+								"read_data": [
+									"668.459350586"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Y resolution (rows) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"288\"",
+								"read_data": [
+									"288"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "X resolution (columns) not as expected; is interpolation turned OFF?",
+								"expected_values": "\"384\"",
+								"read_data": [
+									"384"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Protocol name does not conform to stock LMS naming",
+								"expected_values": "\"LMS MOLLI\"",
+								"read_data": [
+									"LMS MOLLI"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Voxel size incorrect",
+								"expected_values": "[\n\t\"1.46\\\\1.46\",\n\t\"1.14583\\\\1.14583\"\n]",
+								"read_data": [
+									"1.14583\\1.14583"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Slice Thickness Incorrect",
+								"expected_values": "\"8\"",
+								"read_data": [
+									"8"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Flip Angle Not 33-35 degrees (31 is allowed if SAR problems)",
+								"expected_values": "[\n\t[\n\t\t33.0,\n\t\t35.0\n\t]\n]",
+								"read_data": [
+									"35"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Multiple",
+								"expected_values": "ed value(s):\n\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Scanning Sequence is not GR with IR prep",
+								"expected_values": "\"GR\"",
+								"read_data": [
+									"GR"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Variant incorrect",
+								"expected_values": "\"SK\"",
+								"read_data": [
+									"SK"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Options incorrect",
+								"expected_values": "[\n\t\"PFP\\\\CG\\\\PPG\\\\PER\",\n\t\"PFP\\\\CG\\\\ECG\\\\PER\",\n\t\"PFP\\\\CG\\\\RG\\\\PPG\\\\PER\"\n]",
+								"read_data": [
+									"PFP\\CG\\PPG\\PER"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Number of Phase",
+								"expected_values": "rrect\nExpected value(s):\n\"144\"",
+								"read_data": [
+									"144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase Pct Sampling incorrect",
+								"expected_values": "\"100\"",
+								"read_data": [
+									"100"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase FOV incorrect",
+								"expected_values": "\"75\"",
+								"read_data": [
+									"75"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Acquisition resolution incorrect",
+								"expected_values": "\"192\\\\0\\\\0\\\\144\"",
+								"read_data": [
+									"192\\0\\0\\144"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"p2\"",
+								"read_data": [
+									"p2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Parallel imaging factor incorrect",
+								"expected_values": "\"2\"",
+								"read_data": [
+									"2"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Gradient mode was not FAST.  Timing may have been affected.",
+								"expected_values": "\"Fast\"",
+								"read_data": [
+									"Fast"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Unexpected image resolution; is interpolation turned off",
+								"expected_values": "\"288p*384 I\"",
+								"read_data": [
+									"288p*384 I"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Different number of reference GRAPPA lines used",
+								"expected_values": "\"24\"",
+								"read_data": [
+									"24"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "1 Heartbeat per TR should be used unless tachycardia",
+								"expected_values": "\"1\"",
+								"read_data": [
+									"1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "This sequence must be cardiac gated",
+								"expected_values": "[\n\t\"1\",\n\t\"2\",\n\t\"4\"\n]",
+								"read_data": [
+									"4"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Phase encoding direction incorrect",
+								"expected_values": "\"COL\"",
+								"read_data": [
+									"COL"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Bandwidth per pixel has been changed",
+								"expected_values": "[\n\t[\n\t\t965.0,\n\t\t977.0\n\t]\n]",
+								"read_data": [
+									"965"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Echo time has been changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]\n",
+								"expected_values": "changed\nExpected value(s):\n[\n\t[\n\t\t1.03,\n\t\t1.05\n\t]\n]",
+								"read_data": [
+									"1.05"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Inversion Time not detected",
+								"expected_values": null,
+								"read_data": [
+									"100",
+									"1065",
+									"1990",
+									"2910",
+									"3805",
+									"180",
+									"260"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Total readout duration (big TR) has changed",
+								"expected_values": "\"373.1\"",
+								"read_data": [
+									"373.1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "A 100ms first inversion time with an 80ms inversion time step per epoch was not used.",
+								"expected_values": "\"260000\"",
+								"read_data": [
+									"260000"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"SLoopIRns1\"",
+								"read_data": [
+									"SLoopIRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_0IRns1\"",
+								"read_data": [
+									"T1_0IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_1IRns1\"",
+								"read_data": [
+									"T1_1IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "HS IR pulse was not used; was T1map IR pulse erroneously selected in protocol?",
+								"expected_values": "\"T1_2IRns1\"",
+								"read_data": [
+									"T1_2IRns1"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Dummy Heartbeats must not be used",
+								"expected_values": "\"0\"",
+								"read_data": [
+									"0"
+								],
+								"status": "NO_ERROR"
+							},
+							{
+								"error_message": "Sequence Name not as expected; different number of phase encodes most likely",
+								"expected_values": "[\n\t\"tfi2d1_84\",\n\t\"*tfi2d1_84\"\n]",
+								"read_data": [
+									"*tfi2d1_84"
+								],
+								"status": "NO_ERROR"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"report_settings": {
+				"analysis_data": [
+					{
+						"quantification": "rois",
+						"type": "cT1"
+					},
+					{
+						"quantification": "rois",
+						"type": "t2Star_dixon"
+					},
+					{
+						"quantification": "rois",
+						"type": "pdff_ideal"
+					}
+				],
+				"cautions": [
+					"Caution: Very high liver fat (PDFF > 30%) may reduce the accuracy of cT1.",
+					"Caution: Very low T2* (T2* < 3ms for 3T or T2* < 5ms for 1.5T) may reduce the accuracy of results."
+				],
+				"reference_ranges": [
+					{
+						"description": "Normal reference range",
+						"maximum": 0.74,
+						"maximum_exclusive": false,
+						"minimum": 0.58,
+						"minimum_exclusive": false,
+						"type": "cT1"
+					},
+					{
+						"description": "Outside reference range",
+						"minimum": 0.74,
+						"minimum_exclusive": true,
+						"type": "cT1"
+					},
+					{
+						"description": "Outside reference range",
+						"maximum": 0.0125,
+						"maximum_exclusive": false,
+						"type": "t2Star_dixon"
+					},
+					{
+						"description": "Normal reference range",
+						"minimum": 0.0125,
+						"minimum_exclusive": true,
+						"type": "t2Star_dixon"
+					},
+					{
+						"description": "No steatosis",
+						"maximum": 5.1,
+						"maximum_exclusive": true,
+						"minimum": 0.0,
+						"minimum_exclusive": false,
+						"type": "pdff_ideal"
+					},
+					{
+						"description": "Mild",
+						"maximum": 14.0,
+						"maximum_exclusive": true,
+						"minimum": 5.1,
+						"minimum_exclusive": false,
+						"type": "pdff_ideal"
+					},
+					{
+						"description": "Moderate",
+						"maximum": 28.0,
+						"maximum_exclusive": true,
+						"minimum": 14.0,
+						"minimum_exclusive": false,
+						"type": "pdff_ideal"
+					},
+					{
+						"description": "Severe",
+						"minimum": 28.0,
+						"minimum_exclusive": false,
+						"type": "pdff_ideal"
+					}
+				],
+				"slice_numbers": [
+					{
+						"parametric_map_id": "4c7101",
+						"slice_number": 1
+					},
+					{
+						"parametric_map_id": "3db14d",
+						"slice_number": 1
+					},
+					{
+						"parametric_map_id": "ad53d9",
+						"slice_number": 1
+					}
+				],
+				"summary_parametric_maps": [
+					"4c7101",
+					"3db14d",
+					"ad53d9"
+				]
+			}
+		}
+	],
+	"product": {
+		"name": "LMS",
+		"type": "LMS",
+		"type_version": "1.2",
+		"version": "+B554LMS40/$+000AAN (be6d0ffb92dcecfedeb24559867f3d1ab0712c7c)"
+	},
+	"version": "1.0"
+}
