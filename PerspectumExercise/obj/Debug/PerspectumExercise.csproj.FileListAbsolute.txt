@@ -76,7 +76,6 @@ C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\obj\Debug\PerspectumExer
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\obj\Debug\PerspectumExercise.csproj.CopyComplete
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\obj\Debug\PerspectumExercise.dll
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\obj\Debug\PerspectumExercise.pdb
-C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\bin\json\LMS_MD_testdata.json
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\bin\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\bin\Microsoft.Extensions.Primitives.dll
 C:\Users\fabio\Desktop\PerspectumMVC\PerspectumExercise\bin\System.Buffers.dll

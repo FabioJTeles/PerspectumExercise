@@ -46,7 +46,7 @@ namespace PerspectumExercise.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "For any clarifications regarding the please use the contacts below!";
+            ViewBag.Message = "For any clarifications please use the contacts below!";
 
             return View();
         }
